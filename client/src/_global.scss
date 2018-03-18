@@ -1,0 +1,46 @@
+$x-large: 42px;
+$large: 30px;
+$med: 20px;
+$small: 16px;
+
+$primary-color:rgb(0, 128, 128);
+$secondary-color: rgb(254, 67, 101);
+$tertiary-color: rgb(249, 205, 173);
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 3vw;
+    text-align: center;
+    color: $primary-color;
+}
+
+h1, h2 {
+    font-size: $large;
+}
+
+h3, h4 {
+    font-size: $med;
+    padding: 0;
+}
+
+p, li {
+    font-size: $small;
+}

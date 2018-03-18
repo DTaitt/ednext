@@ -1,0 +1,22 @@
+@import './../global';
+
+
+div.panel {
+    text-transform: capitalize;
+}
+
+.panel-heading {
+    background: white !important;
+    border-top: .5vw solid $secondary-color !important;
+}
+
+.panel-body p {
+    color: $secondary-color;
+    font-size: $large;
+}
+
+@media only screen and (min-width: 900px) {
+  div.panel {
+      grid-row: span 1;
+  }
+}

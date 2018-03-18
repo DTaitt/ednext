@@ -1,0 +1,34 @@
+@import 'global';
+
+main {
+  margin: 0;
+  padding: 3vw;
+  
+}
+
+h2 {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 3vw;
+    h2 {
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    height: 90vh;
+    padding: 0 1vw;
+    margin: 0;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 400px 400px 400px;
+  }
+}

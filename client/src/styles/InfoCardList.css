@@ -1,0 +1,58 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Mandali', sans-serif; }
+
+ul,
+li {
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 3vw;
+  text-align: center;
+  color: teal; }
+
+h1, h2 {
+  font-size: 30px; }
+
+h3, h4 {
+  font-size: 20px;
+  padding: 0; }
+
+p, li {
+  font-size: 16px; }
+
+div.panel li {
+  border-bottom: 1px solid #f9cdad;
+  margin: 2vw 0;
+  padding: 4vw;
+  font-size: 20px;
+  color: #fe4365;
+  text-transform: uppercase; }
+
+@media only screen and (min-width: 600px) {
+  #skills {
+    grid-column: 1 / span 2; }
+  #skills ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2vw; }
+    #skills ul li {
+      padding: 2vw;
+      border: none;
+      border-bottom: 1px solid #f9cdad; } }
+
+@media only screen and (min-width: 600px) {
+  #skills {
+    height: 500px; }
+    #skills li {
+      font-size: 20px;
+      margin: 0; } }
