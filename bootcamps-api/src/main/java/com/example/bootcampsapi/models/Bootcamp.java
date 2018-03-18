@@ -29,3 +29,5 @@ public class Bootcamp {
     private boolean has_career_services;
 
 }
+
+//    SELECT skill.* FROM skill INNER JOIN bootcamp_skill ON skill.skill_id = bootcamp_skill.skill_id WHERE bootcamp_skill.bootcamp_id=1;
