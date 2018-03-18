@@ -13,7 +13,7 @@ public class DeveloperSalaryApiApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "some info";
+		return "developer salary index";
 	}
 
 	public static void main(String[] args) {
