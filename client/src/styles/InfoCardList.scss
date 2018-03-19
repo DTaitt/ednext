@@ -1,50 +1,51 @@
-@import './../global';
+@import 'global';
 
-div.panel li {
-    // border-left: 2px solid $tertiary-color;
-    // border-right: 2px solid $tertiary-color;
-    border-bottom: 1px solid $tertiary-color;
-    // border-bottom: .5vw solid $tertiary-color;
-    margin: 2vw 0;
-    padding: 4vw;
-    font-size: $med;
-    color: $secondary-color;
-    text-transform: uppercase;
-}
-
-@media only screen and (min-width: 600px) {
-    #skills {
-        grid-column: 1 / span 2;
-    }
-
-    #skills ul {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-column-gap: 2vw;
+div#skills.panel.panel-default {
+    ul {
+        padding: 0;
         li {
-            padding: 2vw;
-            border: none;
-            border-bottom: 1px solid $tertiary-color;
+            margin: 1vw 0;
+            padding: 3vw 0;
+            background: $tertiary-color;
+            font-size: $large;
+            text-transform: uppercase;
         }
     }
 }
 
-@media only screen and (min-width: 600px) {
-    #skills {
-        height: 500px;
-        li {
-            font-size: 20px;
-            margin: 0;
-        }
-    }
-    // #skills ul {
-    //     display: grid;
-    //     grid-template-columns: auto auto;
-    //     grid-column-gap: 2vw;
-    //     li {
-    //         padding: 2vw;
-    //         border: none;
-    //         border-bottom: 1px solid $tertiary-color;
-    //     }
-    // }
-}
+// @media only screen and (min-width: 600px) {
+//     #skills {
+//         grid-column: 1 / span 2;
+//     }
+
+//     #skills ul {
+//         display: grid;
+//         grid-template-columns: auto auto;
+//         grid-column-gap: 2vw;
+//         li {
+//             padding: 2vw;
+//             border: none;
+//             border-bottom: 1px solid $tertiary-color;
+//         }
+//     }
+// }
+
+// @media only screen and (min-width: 600px) {
+//     #skills {
+//         height: 500px;
+//         li {
+//             font-size: 20px;
+//             margin: 0;
+//         }
+//     }
+//     // #skills ul {
+//     //     display: grid;
+//     //     grid-template-columns: auto auto;
+//     //     grid-column-gap: 2vw;
+//     //     li {
+//     //         padding: 2vw;
+//     //         border: none;
+//     //         border-bottom: 1px solid $tertiary-color;
+//     //     }
+//     // }
+// }

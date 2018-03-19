@@ -1,9 +1,12 @@
-*,
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Mandali', sans-serif; }
+  font-family: 'Mandali', sans-serif;
+  font-size: 16px; }
 
 ul,
 li {
@@ -16,31 +19,24 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 3vw;
-  text-align: center;
+  padding: 2vw;
   color: teal; }
 
 h1, h2 {
-  font-size: 30px; }
+  font-size: 26px; }
 
 h3, h4 {
-  font-size: 20px;
-  padding: 0; }
+  font-size: 22px; }
 
 p, li {
   font-size: 16px; }
 
-div.panel {
-  text-transform: capitalize; }
-
-.panel-heading {
-  background: white !important;
-  border-top: 0.5vw solid #fe4365 !important; }
-
-.panel-body p {
-  color: #fe4365;
-  font-size: 30px; }
-
-@media only screen and (min-width: 900px) {
-  div.panel {
-    grid-row: span 1; } }
+div.panel.panel-default {
+  text-transform: capitalize;
+  width: 100%; }
+  div.panel.panel-default .panel-heading {
+    background: white;
+    border-top: 0.5vw solid #fe4365; }
+  div.panel.panel-default .panel-body p {
+    color: #fe4365;
+    font-size: 26px; }

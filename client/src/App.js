@@ -4,8 +4,7 @@ import axios from 'axios';
 import './App.css';
 
 import Header from './components/Header';
-import InfoCard from './components/InfoCard';
-import InfoCardList from './components/InfoCardList';
+import Main from './components/Main';
 
 type Props = {};
 type State = {
@@ -27,16 +26,11 @@ export default class App extends Component<Props, State> {
 
   render() {
     console.log(this.state.bootcampData[0])
-    return <Fragment>
-        <Header />
-        <h2>General Assembly?</h2>
-        <main>
-          <InfoCard info={{ heading: "cost", body: 10000 }} />
-          <InfoCard info={{ heading: "duration", body: 12 }} />
-          <InfoCard info={{ heading: "financing", body: "yes" }} />
-          <InfoCard info={{ heading: "career services", body: "yes" }} />
-          <InfoCardList skills={['javascript','react','html','css',4,4,5,5,6,6,7,8]} />
-        </main>
-      </Fragment>;
+    return (
+        <Fragment>
+          <Header />
+          <Main />    
+        </Fragment>
+    );
   }
 }

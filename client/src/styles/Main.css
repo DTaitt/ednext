@@ -31,11 +31,13 @@ h3, h4 {
 p, li {
   font-size: 16px; }
 
-div#skills.panel.panel-default ul {
-  padding: 0; }
-  div#skills.panel.panel-default ul li {
-    margin: 1vw 0;
-    padding: 3vw 0;
-    background: #f9cdad;
-    font-size: 22px;
-    text-transform: uppercase; }
+main {
+  min-height: 90vh;
+  margin: 0; }
+  main h2 {
+    margin: 1vw 0; }
+
+@media only screen and (min-width: 600px) {
+  main div.container {
+    display: grid;
+    grid-template-columns: auto auto; } }

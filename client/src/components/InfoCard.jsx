@@ -1,10 +1,11 @@
-//@flow
 import React from 'react';
 import './../styles/InfoCard.css';
 
 import { Panel } from 'react-bootstrap';
 
-export default function InfoCard(props) {
+type Props = {};
+
+export default function InfoCard(props:Props) {
 
     switch (props.info.heading) {
         case 'cost':

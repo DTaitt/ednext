@@ -1,9 +1,12 @@
-*,
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Mandali', sans-serif; }
+  font-family: 'Mandali', sans-serif;
+  font-size: 16px; }
 
 ul,
 li {
@@ -16,37 +19,26 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 3vw;
-  text-align: center;
+  padding: 2vw;
   color: teal; }
 
 h1, h2 {
-  font-size: 30px; }
+  font-size: 26px; }
 
 h3, h4 {
-  font-size: 20px;
-  padding: 0; }
+  font-size: 22px; }
 
 p, li {
   font-size: 16px; }
 
 header {
-  color: teal;
   padding: 2vw;
-  border-bottom: 4px solid #fe4365; }
-  header h1 {
-    text-align: left; }
+  border-bottom: 4px solid #fe4365;
+  height: 10vh;
+  display: flex;
+  align-items: center; }
 
 @media only screen and (min-width: 600px) {
   header {
+    height: 8vh;
     padding: 0; } }
-
-@media only screen and (min-width: 900px) {
-  header {
-    height: 10vh;
-    padding: 0;
-    display: flex;
-    align-items: center; }
-    header h1 {
-      margin: 0;
-      padding: 10px; } }
