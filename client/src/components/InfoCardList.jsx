@@ -3,7 +3,7 @@ import './../styles/InfoCardList.css';
 import { Panel } from "react-bootstrap";
 
 export default function InfoCardList(props) {
-    console.log(props)
+    // console.log(props)
     return(
         <Panel id='skills'>
             <Panel.Heading>
@@ -13,7 +13,7 @@ export default function InfoCardList(props) {
                 <ul>
                     {
                         props.skills.map((skill) => {
-                            console.log(skill)
+                            // console.log(skill)
                             return <li>{skill}</li>
                         })
                     }

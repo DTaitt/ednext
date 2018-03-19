@@ -27,13 +27,13 @@ export default class App extends Component<Props, State> {
   }
 
   render() {
-    console.log(this.state)
+    console.log(this.state.bootcampData[0])
     return (
         <Fragment>
           <Header />
           { 
             this.state.isBootcampDataLoaded 
-            ? <Main />
+            ? <Main bootcampData = { this.state.bootcampData[0] } />
             : null
           }
         </Fragment>
