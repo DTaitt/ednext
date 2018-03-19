@@ -1,4 +1,4 @@
-INSERT INTO salary_by_city
+INSERT INTO salary
     (city, salary)
 VALUES
     ('new york city', 85724),
