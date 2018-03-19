@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b45e7f5-99af-418d-8097-3c7c4f155f72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" />
-      <change beforePath="$PROJECT_DIR$/bootcamps-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/bootcamps-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/bootcamps-api/cache/caches/modules-2/modules-2.lock" afterPath="$PROJECT_DIR$/bootcamps-api/cache/caches/modules-2/modules-2.lock" />
-      <change beforePath="$PROJECT_DIR$/bootcamps-api/cache/caches/transforms-1/transforms-1.lock" afterPath="$PROJECT_DIR$/bootcamps-api/cache/caches/transforms-1/transforms-1.lock" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" />
-      <change beforePath="$PROJECT_DIR$/salary-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/salary-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/salary-api/cache/caches/modules-2/modules-2.lock" afterPath="$PROJECT_DIR$/salary-api/cache/caches/modules-2/modules-2.lock" />
-      <change beforePath="$PROJECT_DIR$/salary-api/cache/caches/transforms-1/transforms-1.lock" afterPath="$PROJECT_DIR$/salary-api/cache/caches/transforms-1/transforms-1.lock" />
-      <change beforePath="$PROJECT_DIR$/salary-api/src/main/resources/db/migration/V2__CREATE_TABLE_SALARY.sql" afterPath="$PROJECT_DIR$/salary-api/src/main/resources/db/migration/V2__CREATE_TABLE_SALARY.sql" />
-      <change beforePath="$PROJECT_DIR$/salary-api/src/main/resources/db/migration/afterMigrate.sql" afterPath="$PROJECT_DIR$/salary-api/src/main/resources/db/migration/afterMigrate.sql" />
+      <change beforePath="$PROJECT_DIR$/TDD_Lesson/.idea/workspace.xml" afterPath="$PROJECT_DIR$/TDD_Lesson/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" afterPath="$PROJECT_DIR$/client/src/App.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main.jsx" afterPath="$PROJECT_DIR$/client/src/components/Main.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +43,8 @@
       <file leaf-file-name="BootcampsApiApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootcamps-api/src/main/java/com/example/bootcampsapi/BootcampsApiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="234">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -205,7 +193,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+    <option name="x" value="1919" />
     <option name="y" value="-11" />
     <option name="width" value="1922" />
     <option name="height" value="1092" />
@@ -356,89 +344,6 @@
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migration" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="salaryapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ednext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ednext" type="462c0819:PsiDirectoryNode" />
-              <item name="salary-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -558,8 +463,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -859,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootcamps-api/src/main/java/com/example/bootcampsapi/BootcampsApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="234">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>

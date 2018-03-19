@@ -5,27 +5,39 @@ import { Panel } from 'react-bootstrap';
 
 type Props = {};
 
-export default function InfoCard(props:Props) {
+export default function InfoCard({title, body}) {
 
-    switch (props.info.heading) {
+    switch (title) {
         case 'cost':
-            props.info.body = "$" + props.info.body.toLocaleString();
+            body = "$" + body.toLocaleString();
             break;
         case 'duration':
-            props.info.body = props.info.body + ' weeks';  
-            break;  
+            body = body + ' weeks';  
+            break;       
         default:
-            props.info.body;
+            body;
         break;
     }
     
+    switch (body) {
+        case 'true':
+            body = 'yes'
+            break;
+        case 'false':
+            body = 'false'
+            break;
+        default:
+            body
+            break;
+    }
+    
     return (
-        <Panel id={props.info.heading}>
+        <Panel id={title}>
             <Panel.Heading>
-                <h3>{ props.info.heading }</h3>
+                <h3>{ title }</h3>
             </Panel.Heading>
             <Panel.Body>
-                <p>{ props.info.body }</p>
+                <p>{ body }</p>
             </Panel.Body>
         </Panel>
     )
