@@ -15,21 +15,27 @@ export default class App extends Component<Props, State> {
 
   state = {
     bootcampData: [],
+    isBootcampDataLoaded: false,
   }
 
   async componentDidMount() {
     let res = await axios.get('/all');
     this.setState((prevState) => ({
       bootcampData: [...prevState.bootcampData, res.data],
+      isBootcampDataLoaded: true,
     }))
   }
 
   render() {
-    console.log(this.state.bootcampData[0])
+    console.log(this.state)
     return (
         <Fragment>
           <Header />
-          <Main />    
+          { 
+            this.state.isBootcampDataLoaded 
+            ? <Main />
+            : null
+          }
         </Fragment>
     );
   }
