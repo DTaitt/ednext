@@ -32,7 +32,11 @@ p, li {
   font-size: 16px; }
 
 .bootcamp-panel {
-  width: 100; }
+  width: 100;
+  display: none; }
+
+.bootcamp-panel.current {
+  display: block; }
 
 .bootcamp-panel h2 {
   text-transform: capitalize; }

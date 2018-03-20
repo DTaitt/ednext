@@ -2,6 +2,11 @@
 
 .bootcamp-panel {
    width: 100;
+   display: none;
+}
+
+.bootcamp-panel.current {
+    display: block;
 }
 
 .bootcamp-panel h2 {

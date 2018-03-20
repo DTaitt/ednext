@@ -4,9 +4,19 @@ import './../styles/BootcampPanel.css';
 import InfoCard from "./InfoCard";
 import InfoCardList from "./InfoCardList";
 
-export default function BootcampPanel({name, cost, duration, hasFinancingPlan, hasCareerServices}) {
+export default function BootcampPanel({name, cost, duration, hasFinancingPlan, hasCareerServices, currentBootcamp}) {
+    console.log(currentBootcamp)
+    console.log(name)
     return(
-        <div className='bootcamp-panel'>
+        <div 
+            className={
+           
+                    currentBootcamp === name
+                    ? 'bootcamp-panel current'
+                    : 'bootcamp-panel'
+             
+            }
+        >
             <h2>{name}</h2>
             <div className="container">
                 <InfoCard title='cost' body={cost} />

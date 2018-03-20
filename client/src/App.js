@@ -17,7 +17,7 @@ export default class App extends Component<Props, State> {
     bootcampData: [],
     isBootcampDataLoaded: false,
     bootcampNames: [],
-    currentBootcamp: 'flatiron school',
+    currentBootcamp: 'general assembly',
   }
 
   handleDropdown = this.handleDropdown.bind(this);
@@ -52,7 +52,7 @@ export default class App extends Component<Props, State> {
           <Header bootcampNames = {this.state.bootcampNames} currentBootcamp={this.state.currentBootcamp} handleDropdown={this.handleDropdown} />
           { 
             this.state.isBootcampDataLoaded 
-            ? <Main bootcampData = { this.state.bootcampData } />
+            ? <Main bootcampData = { this.state.bootcampData } currentBootcamp={this.state.currentBootcamp} />
             : null
           }
         </Fragment>
