@@ -6,6 +6,9 @@ header {
     height: 10vh;
     display: flex;
     align-items: center;
+    button, li {
+        text-transform: capitalize;
+    }
 }
 
 @media only screen and (min-width: 600px) {

@@ -39,5 +39,13 @@ main {
 
 @media only screen and (min-width: 600px) {
   main div.container {
-    display: grid;
-    grid-template-columns: auto auto; } }
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media only screen and (min-width: 900px) {
+  main {
+    height: 90vh; }
+    main div.bootcamp-panel {
+      height: 100%; }
+      main div.bootcamp-panel div.container {
+        height: 80%; } }

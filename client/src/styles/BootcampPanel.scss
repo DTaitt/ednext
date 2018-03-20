@@ -1,5 +1,15 @@
 @import 'global';
 
+.bootcamp-panel {
+   width: 100;
+}
+
 .bootcamp-panel h2 {
     text-transform: capitalize;
+}
+
+.container {
+    margin: 0;
+    padding: 0 1vw;
+    width: 100%;
 }

@@ -40,3 +40,8 @@ div.panel.panel-default {
   div.panel.panel-default .panel-body p {
     color: #fe4365;
     font-size: 26px; }
+
+@media only screen and (min-width: 600px) {
+  div.panel {
+    margin: 1vw;
+    flex: 47% 1; } }

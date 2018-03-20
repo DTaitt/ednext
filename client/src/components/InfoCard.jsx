@@ -7,6 +7,7 @@ type Props = {};
 
 export default function InfoCard({title, body}) {
 
+    //format content
     switch (title) {
         case 'cost':
             body = "$" + body.toLocaleString();
@@ -19,6 +20,7 @@ export default function InfoCard({title, body}) {
         break;
     }
     
+    //change boolean to string
     switch (body) {
         case 'true':
             body = 'yes'
@@ -32,7 +34,7 @@ export default function InfoCard({title, body}) {
     }
     
     return (
-        <Panel id={title}>
+        <Panel id={title.split(' ').join('-')}>
             <Panel.Heading>
                 <h3>{ title }</h3>
             </Panel.Heading>

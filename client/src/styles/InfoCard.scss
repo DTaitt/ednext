@@ -14,8 +14,9 @@ div.panel.panel-default {
     }
 }
 
-// @media only screen and (min-width: 900px) {
-//   div.panel {
-//       grid-row: span 1;
-//   }
-// }
+@media only screen and (min-width: 600px) {
+  div.panel {
+      margin: 1vw;
+      flex: 47% 1;
+  }
+}
