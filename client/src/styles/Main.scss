@@ -9,20 +9,30 @@ main {
 }
 
 @media only screen and (min-width: 600px) {
+    // main div.container {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     align-items: stretch;
+    //     justify-content: center;
+    // }
+    main {
+        height: 100%;
+    }
     main div.container {
         display: flex;
         flex-wrap: wrap;
+        height: 100%;
     }
 }
 
-@media only screen and (min-width: 900px) {
-    main {
-        height: 90vh;
-        div.bootcamp-panel {
-            height: 100%;
-            div.container {
-                height: 80%;
-            }
-        }
-    }
-}
+// @media only screen and (min-width: 900px) {
+//     main {
+//         height: 90vh;
+//         div.bootcamp-panel {
+//             height: 100%;
+//             div.container {
+//                 height: 80%;
+//             }
+//         }
+//     }
+// }

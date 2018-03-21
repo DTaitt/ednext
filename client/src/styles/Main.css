@@ -38,14 +38,9 @@ main {
     margin: 1vw 0; }
 
 @media only screen and (min-width: 600px) {
+  main {
+    height: 100%; }
   main div.container {
     display: flex;
-    flex-wrap: wrap; } }
-
-@media only screen and (min-width: 900px) {
-  main {
-    height: 90vh; }
-    main div.bootcamp-panel {
-      height: 100%; }
-      main div.bootcamp-panel div.container {
-        height: 80%; } }
+    flex-wrap: wrap;
+    height: 100%; } }

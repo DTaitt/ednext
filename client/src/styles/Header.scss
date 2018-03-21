@@ -3,18 +3,50 @@
 header {
     padding: 2vw;
     border-bottom: 4px solid $secondary-color;
-    height: 10vh;
+    // height: 10vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     button, li {
         text-transform: capitalize;
+        background: white !important;
+        width: 100%;
+        text-align: center;
+        padding: 1vw 0;
+        font-size: $med;
+    }
+    div.dropdown {
+        margin: 2vw auto;
+        display: block;
+        width: 90%;
+        ul {
+            width: 100%;
+        }
+    }
+    .btn {
+        font-size: $med;
+    }
+    li:hover, li:active {
+        background: $tertiary-color !important;
     }
 }
 
 @media only screen and (min-width: 600px) {
     header {
-        height: 8vh;
-        padding: 0;     
+        // height: 8vh;
+        padding: 2vw;   
+        flex-direction: row; 
+        div.dropdown {
+            margin: 0 2vw 0 auto;
+            display: block;
+            width: 50vw;
+            ul {
+                width: 100%;
+            }
+            * {
+                font-size: $med;
+            }
+        }
     }
 }
 

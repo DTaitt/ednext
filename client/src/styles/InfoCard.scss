@@ -11,6 +11,10 @@ div.panel.panel-default {
     .panel-body p {
         color: $secondary-color;
         font-size: $x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12vw 0;
     }
 }
 

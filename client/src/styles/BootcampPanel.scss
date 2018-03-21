@@ -3,6 +3,7 @@
 .bootcamp-panel {
    width: 100;
    display: none;
+   height: 100%;
 }
 
 .bootcamp-panel.current {
@@ -17,4 +18,10 @@
     margin: 0;
     padding: 0 1vw;
     width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .bootcamp-panel {
+        height: 80vh;
+    }
 }

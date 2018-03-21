@@ -34,13 +34,36 @@ p, li {
 header {
   padding: 2vw;
   border-bottom: 4px solid #fe4365;
-  height: 10vh;
   display: flex;
+  flex-direction: column;
   align-items: center; }
   header button, header li {
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    background: white !important;
+    width: 100%;
+    text-align: center;
+    padding: 1vw 0;
+    font-size: 16px; }
+  header div.dropdown {
+    margin: 2vw auto;
+    display: block;
+    width: 90%; }
+    header div.dropdown ul {
+      width: 100%; }
+  header .btn {
+    font-size: 16px; }
+  header li:hover, header li:active {
+    background: #f9cdad !important; }
 
 @media only screen and (min-width: 600px) {
   header {
-    height: 8vh;
-    padding: 0; } }
+    padding: 2vw;
+    flex-direction: row; }
+    header div.dropdown {
+      margin: 0 2vw 0 auto;
+      display: block;
+      width: 50vw; }
+      header div.dropdown ul {
+        width: 100%; }
+      header div.dropdown * {
+        font-size: 16px; } }

@@ -39,7 +39,11 @@ div.panel.panel-default {
     border-top: 0.5vw solid #fe4365; }
   div.panel.panel-default .panel-body p {
     color: #fe4365;
-    font-size: 26px; }
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12vw 0; }
 
 @media only screen and (min-width: 600px) {
   div.panel {
