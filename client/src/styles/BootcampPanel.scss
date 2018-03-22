@@ -16,12 +16,23 @@
 
 .container {
     margin: 0;
-    padding: 0 1vw;
+    padding: 0 5px 5px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 600px) {
-    .bootcamp-panel {
-        height: 80vh;
+    .container {
+        height: 77vh;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .container {
+        height: 75vh;
+        // width: 70%;
+        padding: 0 10vw;
+        margin: auto;
     }
 }

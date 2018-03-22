@@ -1,20 +1,12 @@
 @import 'global';
 
 header {
-    padding: 2vw;
+    padding: 7px 0;
     border-bottom: 4px solid $secondary-color;
     // height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    button, li {
-        text-transform: capitalize;
-        background: white !important;
-        width: 100%;
-        text-align: center;
-        padding: 1vw 0;
-        font-size: $med;
-    }
     div.dropdown {
         margin: 2vw auto;
         display: block;
@@ -22,43 +14,91 @@ header {
         ul {
             width: 100%;
         }
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button,
+        li {
+            text-transform: capitalize;
+            background: white !important;
+            width: 100%;
+            text-align: center;
+            padding: 6px 0;
+            font-size: $small;
+            min-height: 40px;
+        }
+        a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+        li:hover,
+        li:active,
+        li:focus,
+        a:focus,
+        a:hover,
+        a:active {
+            background: $primary-color !important;
+            li,
+            a,
+            a:hover,
+            a:active {
+                color: white;
+            }
+        }
     }
-    .btn {
-        font-size: $med;
-    }
-    li:hover, li:active {
-        background: $tertiary-color !important;
+    
+    
+}
+
+@media only screen and (min-width: 400px) {
+    header {
+        div.dropdown {
+            ul, button, li{
+                font-size: $med !important ;
+            }
+        }
     }
 }
 
 @media only screen and (min-width: 600px) {
     header {
-        // height: 8vh;
-        padding: 2vw;   
+        padding: 10px;   
         flex-direction: row; 
         div.dropdown {
             margin: 0 2vw 0 auto;
             display: block;
-            width: 50vw;
+            width: 350px;
+            ul {
+                width: 100%;
+            }
+            ul, button, li {
+                font-size: $med;
+            }
+            button,
+            li {
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    header {
+        // height: 8vh;
+        padding: 0vw;
+        div.dropdown {
             ul {
                 width: 100%;
             }
             * {
                 font-size: $med;
             }
+            button,li {
+                padding: 12px 0;
+            }
         }
     }
 }
-
-// @media only screen and (min-width: 900px) {
-//     header {
-//         height: 10vh;
-//         padding: 0;
-//         display: flex;
-//         align-items: center;
-//         h1 {
-//             margin: 0;
-//             padding: 10px;
-//         }
-//     }
-// }

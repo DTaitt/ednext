@@ -32,38 +32,93 @@ p, li {
   font-size: 16px; }
 
 header {
-  padding: 2vw;
+  padding: 7px 0;
   border-bottom: 4px solid #fe4365;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  header button, header li {
-    text-transform: capitalize;
-    background: white !important;
-    width: 100%;
-    text-align: center;
-    padding: 1vw 0;
-    font-size: 16px; }
   header div.dropdown {
     margin: 2vw auto;
     display: block;
     width: 90%; }
     header div.dropdown ul {
       width: 100%; }
-  header .btn {
-    font-size: 16px; }
-  header li:hover, header li:active {
-    background: #f9cdad !important; }
+    header div.dropdown li {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    header div.dropdown button,
+    header div.dropdown li {
+      text-transform: capitalize;
+      background: white !important;
+      width: 100%;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 14px;
+      min-height: 40px; }
+    header div.dropdown a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
+    header div.dropdown li:hover,
+    header div.dropdown li:active,
+    header div.dropdown li:focus,
+    header div.dropdown a:focus,
+    header div.dropdown a:hover,
+    header div.dropdown a:active {
+      background: teal !important; }
+      header div.dropdown li:hover li,
+      header div.dropdown li:hover a,
+      header div.dropdown li:hover a:hover,
+      header div.dropdown li:hover a:active,
+      header div.dropdown li:active li,
+      header div.dropdown li:active a,
+      header div.dropdown li:active a:hover,
+      header div.dropdown li:active a:active,
+      header div.dropdown li:focus li,
+      header div.dropdown li:focus a,
+      header div.dropdown li:focus a:hover,
+      header div.dropdown li:focus a:active,
+      header div.dropdown a:focus li,
+      header div.dropdown a:focus a,
+      header div.dropdown a:focus a:hover,
+      header div.dropdown a:focus a:active,
+      header div.dropdown a:hover li,
+      header div.dropdown a:hover a,
+      header div.dropdown a:hover a:hover,
+      header div.dropdown a:hover a:active,
+      header div.dropdown a:active li,
+      header div.dropdown a:active a,
+      header div.dropdown a:active a:hover,
+      header div.dropdown a:active a:active {
+        color: white; }
+
+@media only screen and (min-width: 400px) {
+  header div.dropdown ul, header div.dropdown button, header div.dropdown li {
+    font-size: 16px !important; } }
 
 @media only screen and (min-width: 600px) {
   header {
-    padding: 2vw;
+    padding: 10px;
     flex-direction: row; }
     header div.dropdown {
       margin: 0 2vw 0 auto;
       display: block;
-      width: 50vw; }
+      width: 350px; }
       header div.dropdown ul {
         width: 100%; }
-      header div.dropdown * {
-        font-size: 16px; } }
+      header div.dropdown ul, header div.dropdown button, header div.dropdown li {
+        font-size: 16px; }
+      header div.dropdown button,
+      header div.dropdown li {
+        padding: 10px 0; } }
+
+@media only screen and (min-width: 800px) {
+  header {
+    padding: 0vw; }
+    header div.dropdown ul {
+      width: 100%; }
+    header div.dropdown * {
+      font-size: 16px; }
+    header div.dropdown button, header div.dropdown li {
+      padding: 12px 0; } }

@@ -7,20 +7,48 @@ div.panel.panel-default {
     .panel-heading {
         background: white;
         border-top: .5vw solid $secondary-color;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel-body {
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .panel-body p {
         color: $secondary-color;
         font-size: $x-large;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 12vw 0;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // margin: 12vw 0;
     }
 }
 
 @media only screen and (min-width: 600px) {
-  div.panel {
-      margin: 1vw;
-      flex: 47% 1;
-  }
+    div.panel.panel-default {
+        flex: 45%;
+        height: 36vh;
+        margin: 0 5px 5px;
+        padding: 0;
+        .panel-heading {
+            height: 25%;
+        }
+        .panel-body {
+            height: 75%;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.panel.panel-default {
+        width: 35%;
+        height: 36vh;
+        margin: 0 2vw;
+        padding: 0;
+    }
+
 }

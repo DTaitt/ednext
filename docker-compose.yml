@@ -64,6 +64,20 @@ services:
       environment:
         - GRADLE_USER_HOME=cache
         - SPRING_PROFILES_ACTIVE=dev
+#  client:
+#      image: node:latest
+#      build: ./client
+#      ports:
+#        - 3000:3000
+#      working_dir: /dashboard
+#      volumes:
+#        - ./client:/client
+#      command: 'yarn start'
+#      depends_on:
+#        - eureka
+#        - postgresdev
+#        - bootcamps-api
+#        - salary-api
   postgresdev:
       image: postgres
       ports:

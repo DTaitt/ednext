@@ -36,16 +36,34 @@ div.panel.panel-default {
   width: 100%; }
   div.panel.panel-default .panel-heading {
     background: white;
-    border-top: 0.5vw solid #fe4365; }
-  div.panel.panel-default .panel-body p {
-    color: #fe4365;
-    font-size: 26px;
+    border-top: 0.5vw solid #fe4365;
+    height: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 12vw 0; }
+    align-items: center; }
+  div.panel.panel-default .panel-body {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  div.panel.panel-default .panel-body p {
+    color: #fe4365;
+    font-size: 26px; }
 
 @media only screen and (min-width: 600px) {
-  div.panel {
-    margin: 1vw;
-    flex: 47% 1; } }
+  div.panel.panel-default {
+    flex: 45%;
+    height: 36vh;
+    margin: 0 5px 5px;
+    padding: 0; }
+    div.panel.panel-default .panel-heading {
+      height: 25%; }
+    div.panel.panel-default .panel-body {
+      height: 75%; } }
+
+@media only screen and (min-width: 900px) {
+  div.panel.panel-default {
+    width: 35%;
+    height: 36vh;
+    margin: 0 2vw;
+    padding: 0; } }
