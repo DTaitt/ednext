@@ -46,3 +46,26 @@ h3, h4 {
 p, li {
     font-size: $med;
 }
+
+@media only screen and (min-width: 600px) {
+    $x-large: 34px;
+    $large: 28px;
+    $med: 24px;
+    $small: 16px;
+
+    h1,
+    h2 {
+        font-size: $x-large;
+    }
+
+    h3,
+    h4 {
+        font-size: $large;
+    }
+
+    p,
+    li {
+        font-size: $med;
+    }
+}
+

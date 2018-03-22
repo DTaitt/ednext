@@ -31,6 +31,17 @@ h3, h4 {
 p, li {
   font-size: 16px; }
 
+@media only screen and (min-width: 600px) {
+  h1,
+  h2 {
+    font-size: 34px; }
+  h3,
+  h4 {
+    font-size: 28px; }
+  p,
+  li {
+    font-size: 24px; } }
+
 main h2 {
   margin: 0;
   padding: 10px; }
