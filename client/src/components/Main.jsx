@@ -1,19 +1,25 @@
+//@flow
 import React from 'react';
 import './../styles/Main.css';
 
 import BootcampPanel from './BootcampPanel';
 
-export default function Main({bootcampData, currentBootcamp}) {
+type Props = {
+    bootcampData: Object[],
+    currentBootcamp: string,
+}
+
+export default function Main(props:Props) {
     return(
         <main>
             {
-                bootcampData.map((bootcamp) => {
+                props.bootcampData.map((bootcamp) => {
                     // console.log(bootcamp)
                     // console.log(currentBootcamp)
                     // console.log(bootcamp.bootcamp)
                     return (<BootcampPanel 
                         key = {bootcamp.id}
-                        currentBootcamp={currentBootcamp}
+                        currentBootcamp={props.currentBootcamp}
                         name = {bootcamp.bootcamp}
                         cost = {bootcamp.bootcamp_cost}
                         duration = {bootcamp.duration}

@@ -8,10 +8,15 @@ import Main from './components/Main';
 
 type Props = {};
 type State = {
-  bootcampData: Object[]
+  bootcampData: Object[],
+  isBootcampDataLoaded: boolean,
+  bootcampNames: string[],
+  currentBootcamp: string,
 }
 
 export default class App extends Component<Props, State> {
+
+  state:State;
 
   state = {
     bootcampData: [],
@@ -39,7 +44,7 @@ export default class App extends Component<Props, State> {
     })
   }
 
-  handleDropdown(bootcamp) {
+  handleDropdown(bootcamp:string) {
     this.setState({
       currentBootcamp: bootcamp,
     })

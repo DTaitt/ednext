@@ -1,14 +1,20 @@
+//@flow
+
 import React from 'react';
 import './../styles/InfoCard.css';
 
 import { Panel } from 'react-bootstrap';
 
-type Props = {};
+type Props = {
+    title: string,
+    body: any,
+};
 
-export default function InfoCard({title, body}) {
+export default function InfoCard(props: Props) {
 
     //format content
-    switch (title) {
+    let body = props.body;
+    switch (props.title) {
         case 'cost':
             body = "$" + body.toLocaleString();
             break;
@@ -21,7 +27,7 @@ export default function InfoCard({title, body}) {
     }
     
     //change boolean to string
-    switch (body) {
+    switch (props.body) {
         case 'true':
             body = 'yes'
             break;
@@ -34,9 +40,9 @@ export default function InfoCard({title, body}) {
     }
     
     return (
-        <Panel id={title.split(' ').join('-')}>
+        <Panel id={props.title.split(' ').join('-')}>
             <Panel.Heading>
-                <h3>{ title }</h3>
+                <h3>{ props.title }</h3>
             </Panel.Heading>
             <Panel.Body>
                 <p>{ body }</p>

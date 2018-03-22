@@ -4,34 +4,26 @@ import {DropdownButton, MenuItem} from 'react-bootstrap';
 
 import './../styles/Header.css';
 
-export default class Header extends Component {
-    // state = {
-    //     currentBootcamp:'flatiron school',
-    // }
+type Props = {
+    currentBootcamp: string,
+    bootcampNames: string[],
+    handleDropdown: (name:string) => void,
+}
 
-    // handleDropdown = this.handleDropdown.bind(this)
-
-    // handleDropdown(name) {
-    //     this.setState({
-    //         currentBootcamp: name,
-    //     })
-    // }
-
-    render() {
-        // console.log(this.state)
+export default function Header (props:Props) {
         return (
             <header>
                 <h1>EdNext</h1>
                 <DropdownButton
                     id='bootcamp-dropdown'
-                    title={this.props.currentBootcamp}
+                    title={props.currentBootcamp}
                 >
                     {
-                        this.props.bootcampNames.map((name) => {
+                        props.bootcampNames.map((name) => {
                             return(
                                 <MenuItem 
                                     key={name}
-                                    onClick={() => {this.props.handleDropdown(name)}}
+                                    onClick={() => {props.handleDropdown(name)}}
                                 >
                                     {name}
                                 </MenuItem>
@@ -41,5 +33,4 @@ export default class Header extends Component {
                 </DropdownButton>
             </header>
         )
-    }
 }
